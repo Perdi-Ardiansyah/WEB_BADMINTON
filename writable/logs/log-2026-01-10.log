@@ -1,0 +1,1887 @@
+CRITICAL - 2026-01-10 09:10:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/layout.php"
+[Method: GET, Route: lapangan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/layout.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 4 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:21:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:21:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:21:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:21:30 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:22:25 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('1')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:22:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:22:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:22:25 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:32:30 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:32:34 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:32:54 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:35:14 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:35:21 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:36:34 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:36:35 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:37:09 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:37:10 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:37:13 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:37:14 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:37:57 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:37:58 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:38:19 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:38:39 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:38:40 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:38:40 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:38:41 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:27 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:28 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:28 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:28 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:29 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:33 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:39:48 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:54 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:55 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:55 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:56 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:56 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:56 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:56 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:57 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:57 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:40:58 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:41:02 --> ErrorException: Undefined array key "jenis"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 57.
+ 1 APPPATH\Views\lapangan\index.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jenis"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 57)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(21): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:45:24 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:45:28 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:45:29 --> ErrorException: Undefined array key "harga"
+[Method: GET, Route: lapangan]
+in APPPATH\Views\lapangan\index.php on line 39.
+ 1 APPPATH\Views\lapangan\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "harga"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php', 39)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('lapangan/index', [], true)
+ 5 APPPATH\Controllers\Lapangan.php(18): view('lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:46:32 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(50): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:46:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(50): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:46:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(50): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:46:32 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(50): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:47:30 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:47:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:47:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:47:30 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:47:31 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:47:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:47:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:47:31 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:47:41 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:47:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:47:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:47:41 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:48:04 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:48:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:04 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:48:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:48:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:05 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:48:12 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:48:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:12 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:48:18 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:48:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:48:18 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:49:36 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:49:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:49:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:49:36 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 09:50:24 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 09:50:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:50:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:50:24 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(52): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:59:36 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:59:41 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:59:44 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:59:47 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:59:48 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 09:59:54 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:00:10 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:00:14 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:02:08 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:02:09 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:02:40 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:03:49 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+ERROR - 2026-01-10 10:09:10 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`)) in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(1123): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Lapangan.php(53): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-10 10:09:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+[Method: GET, Route: lapangan/delete/5]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 2 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\Lapangan.php(53): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:09:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 4 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 5 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 6 APPPATH\Controllers\Lapangan.php(53): CodeIgniter\BaseModel->delete([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:09:10 --> [Caused by] mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`badminton_db`.`jadwal_lapangan`, CONSTRAINT `jadwal_lapangan_ibfk_1` FOREIGN KEY (`id_lapangan`) REFERENCES `lapangan` (`id_lapangan`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN (\'5\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `lapangan`
+WHERE `id_lapangan` IN :id_lapangan:', [...], false)
+ 5 SYSTEMPATH\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1123): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Lapangan.php(53): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->delete('5')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:35:59 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:35:59 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:36:02 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:36:03 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:36:03 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-10 10:39:00 --> Error: Class "App\Models\ReservasiModel" not found
+[Method: GET, Route: lapangan]
+in APPPATH\Controllers\Lapangan.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Lapangan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-10 10:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 10:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 10:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 10:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 10:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:41:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-10 15:48:10 --> ArgumentCountError: Too few arguments to function App\Controllers\Lapangan::update(), 0 passed in C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: lapangan/update]
+in APPPATH\Controllers\Lapangan.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Lapangan->update()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lapangan))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-10 15:49:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 15:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:14:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-10 16:31:44 --> ErrorException: Undefined variable $j
+[Method: GET, Route: jadwal-lapangan]
+in APPPATH\Views\jadwal_lapangan\index.php on line 8.
+ 1 APPPATH\Views\jadwal_lapangan\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\jadwal_lapangan\\index.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\jadwal_lapangan\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('jadwal_lapangan/index', [], true)
+ 5 APPPATH\Controllers\JadwalLapangan.php(33): view('jadwal_lapangan/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalLapangan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalLapangan))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-10 16:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-10 16:38:49 --> ErrorException: Undefined variable $j
+[Method: GET, Route: jadwal-lapangan]
+in APPPATH\Views\templates\sidebar.php on line 55.
+ 1 APPPATH\Views\templates\sidebar.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\templates\\sidebar.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\templates\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('templates/sidebar', null, true)
+ 5 APPPATH\Views\templates\layout.php(2): CodeIgniter\View\View->include('templates/sidebar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\templates\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('templates/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('jadwal_lapangan/index', [], true)
+10 APPPATH\Controllers\JadwalLapangan.php(33): view('jadwal_lapangan/index', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalLapangan->index()
+12 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JadwalLapangan))
+13 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-10 16:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:44:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:52:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 16:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:38:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-10 17:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

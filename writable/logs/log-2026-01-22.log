@@ -1,0 +1,1507 @@
+DEBUG - 2026-01-22 10:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 10:03:43 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 10:03:43 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:14:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:36:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:38:39 --> Error: Class "App\Controllers\Client\JadwalLapanganModel" not found
+[Method: GET, Route: client/reservasi]
+in APPPATH\Controllers\Client\Reservasi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Client\Reservasi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:40:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "client/reservasi.php"
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('client/reservasi.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi', [], true)
+ 3 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:41:44 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 12.
+ 1 APPPATH\Views\client\reservasi\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:41:45 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 12.
+ 1 APPPATH\Views\client\reservasi\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:42:51 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 12.
+ 1 APPPATH\Views\client\reservasi\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:42:52 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 12.
+ 1 APPPATH\Views\client\reservasi\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:42:53 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 12.
+ 1 APPPATH\Views\client\reservasi\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:42:55 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 12.
+ 1 APPPATH\Views\client\reservasi\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:43:32 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 11.
+ 1 APPPATH\Views\client\reservasi\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:43:34 --> ErrorException: Undefined array key "id_jadwal"
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 11.
+ 1 APPPATH\Views\client\reservasi\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jadwal"', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:44:05 --> ErrorException: Undefined variable $lapangan
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 11.
+ 1 APPPATH\Views\client\reservasi\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lapangan', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:44:07 --> ErrorException: Undefined variable $lapangan
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 11.
+ 1 APPPATH\Views\client\reservasi\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lapangan', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(27): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:54:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/client.php"
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/client.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/client', [], true)
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 4 APPPATH\Controllers\Client\Reservasi.php(41): view('client/reservasi/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 10:54:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/client.php"
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/client.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/client', [], true)
+ 3 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 4 APPPATH\Controllers\Client\Reservasi.php(41): view('client/reservasi/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 10:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 10:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 13:25:25 --> ErrorException: Undefined property: App\Controllers\Client\Reservasi::$reservasi
+[Method: POST, Route: client/reservasi/store]
+in APPPATH\Controllers\Client\Reservasi.php on line 65.
+ 1 APPPATH\Controllers\Client\Reservasi.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Client\\Reservasi::$reservasi', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Controllers\\Client\\Reservasi.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:31:58 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:31:58 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:38:08 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:38:08 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:38:57 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:38:57 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:39:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:39:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:39:24 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:39:24 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:39:58 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:39:58 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:03 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:03 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:10 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:10 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:12 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:12 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:15 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:17 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:17 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:19 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:19 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:40:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:40:38 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:43:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:43:56 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-01-22 13:47:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 51.
+ 1 APPPATH\Views\admin\reservasi\index.php(51): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+WARNING - 2026-01-22 13:47:01 --> [DEPRECATED] substr(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\reservasi\index.php on line 53.
+ 1 APPPATH\Views\admin\reservasi\index.php(53): substr(null, 0, 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\admin\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('admin/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Admin\Reservasi.php(27): view('admin/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 13:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-22 13:56:11 --> mysqli_sql_exception: Not unique table/alias: 'lapangan' in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-22 13:56:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:56:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:56:11 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-22 13:57:41 --> mysqli_sql_exception: Not unique table/alias: 'lapangan' in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-22 13:57:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:57:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:57:41 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-22 13:57:43 --> mysqli_sql_exception: Not unique table/alias: 'lapangan' in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-22 13:57:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:57:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:57:43 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Client\Reservasi.php(42): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:58:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-22 13:58:23 --> mysqli_sql_exception: Not unique table/alias: 'lapangan' in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-22 13:58:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:58:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:58:23 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 13:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-22 13:58:25 --> mysqli_sql_exception: Not unique table/alias: 'lapangan' in C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_...', 0)
+#1 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_...')
+#2 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_...')
+#3 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_...', Array, false)
+#4 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\WEB_BADMINTONNEW\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\WEB_BADMINTONNEW\app\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+#8 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+#9 C:\xampp\htdocs\WEB_BADMINTONNEW\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\WEB_BADMINTONNEW\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\WEB_BADMINTONNEW\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\WEB_BADMINTONNEW\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2026-01-22 13:58:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+[Method: GET, Route: client/reservasi]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:58:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+CRITICAL - 2026-01-22 13:58:25 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'lapangan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = \'2026-01-22\'
+AND `jadwal_lapangan`.`status` = \'tersedia\'
+AND `tanggal` = \'2026-01-22\'
+ORDER BY `jam_mulai` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`, `jadwal_lapangan`.*, `lapangan`.`nama_lapangan`
+FROM `jadwal_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+JOIN `lapangan` ON `lapangan`.`id_lapangan` = `jadwal_lapangan`.`id_lapangan`
+WHERE `tanggal` = :tanggal:
+AND `jadwal_lapangan`.`status` = :jadwal_lapangan.status:
+AND `tanggal` = :tanggal.1:
+ORDER BY `jam_mulai` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Client\Reservasi.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 14:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 14:07:37 --> ErrorException: Undefined variable $tanggal
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 30.
+ 1 APPPATH\Views\client\reservasi\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tanggal', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(43): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 14:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 14:09:32 --> ErrorException: Undefined variable $lapangan
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 36.
+ 1 APPPATH\Views\client\reservasi\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lapangan', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(45): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 14:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-22 14:09:33 --> ErrorException: Undefined variable $lapangan
+[Method: GET, Route: client/reservasi]
+in APPPATH\Views\client\reservasi\index.php on line 36.
+ 1 APPPATH\Views\client\reservasi\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lapangan', 'C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\app\\Views\\client\\reservasi\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('client/reservasi/index', [], true)
+ 5 APPPATH\Controllers\Client\Reservasi.php(45): view('client/reservasi/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Client\Reservasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client\Reservasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\WEB_BADMINTONNEW\\public\\index.php')
+DEBUG - 2026-01-22 14:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-22 14:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
